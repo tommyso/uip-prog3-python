@@ -1,0 +1,22 @@
+secret = "apple"
+tries = 3
+tried = 1
+
+while (tried <= 3):
+    print("\nAdivina la palabra secreta.")
+    answer = (input("Escriba su respuesta: "))
+
+    if answer.lower() == secret.lower():
+        print("Adivinastes la palabra secreta!")
+        print("\nYa se ha terminado el programa. Muchas gracias por participar.")
+        break
+    else:
+        tried = tried + 1
+        tries = tries - 1
+
+        if(tries>0):
+            print("Intenta otra vez.")
+            print("Tienes", str(tries), "intentos más.")
+        else:
+            print("\nSe le acabaron los intentos. Muchas gracias por participar.")
+
