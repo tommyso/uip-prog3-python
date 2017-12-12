@@ -2,7 +2,6 @@ import re
 
 if __name__ == '__main__':
 
-    #patron = '[a-zA-Z0-9|\W]ap[\W|[a-oq-z0-9]'
     patron = '[a-ce-gi-oq-z0-9][a-z0-9][{a-df-qs-z}\s][{a-ce-z}\s]'
     palabras = ['rap them', 'tapeth', 'apth', 'wrap/try', 'sap tray', '87ap9th', 'apothecary', 'aleht', 'happy them', 'tarpth', 'Apt', 'peth', 'tarreth', 'ddpdg']
 
